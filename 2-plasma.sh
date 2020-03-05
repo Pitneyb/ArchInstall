@@ -12,7 +12,10 @@ PKGS=(
         'lightdm-gtk-greeter'   # Default lightdm Greeter
         
         # KDE Applications----------------------
-        
+        'dolphin'               # KDE File Manager
+        'kate'                  # Advanced Text Editor
+        'khelpcenter'           # show KDE Applications' documentation
+        'konsole'               # terminal  emulator
         
 )
 
