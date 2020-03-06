@@ -16,7 +16,7 @@ PKGS=(
         'kate'                  # Advanced Text Editor
         'khelpcenter'           # show KDE Applications' documentation
         'konsole'               # terminal  emulator
-        
+        'kwrited'               # listen for wall and write messages
 )
 
 for PKG in "${PKGS[@]}"; do
