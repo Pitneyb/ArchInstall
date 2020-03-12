@@ -20,6 +20,8 @@ PKGS=(
     #-----------------------WINE-STAGING-------------------------------
     
     'wine-staging'          # Compatibility layer for running Windows Programs
+    'wine-gecko'            #
+    'wine-mono'             #
     
     #-----------------------LUTRIS--------------------------------------
     
@@ -29,7 +31,7 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING ${PKG}"
-    sudo pacman -S "$PKG" --noconfirm --needed
+    sudo pacman -S "$PKG" --noconfirm --needed | tee -a archinstall.log
 done
 
 echo
