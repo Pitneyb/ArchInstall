@@ -11,7 +11,7 @@ PKGS=(
 )
 
 for PKG in "${PKGS[@]}"; do
-    echo "INSTALLING ${PKG}"
+    echo "INSTALLING ${PKG}" | tee -a archinstall.log
     sudo pacman -S "$PKG" --noconfirm --needed | tee -a archinstall.log
 done
 
