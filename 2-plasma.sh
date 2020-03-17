@@ -15,6 +15,7 @@ PKGS=(
         'dolphin'               # KDE File Manager
         'kate'                  # Advanced Text Editor
         'khelpcenter'           # show KDE Applications' documentation
+        'kmymoney'              # Personl Finance manager for KDE
         'konsole'               # terminal  emulator
         'kwrited'               # listen for wall and write messages
 )
