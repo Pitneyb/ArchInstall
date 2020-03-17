@@ -30,6 +30,7 @@ PKGS=(
     # GENERAL UTILITIES ---------------------------------------------------
 
     'kgpg'                   # A GnuPG frontend
+    'gparted'                # Partition magic clone
     'grsync'                 # Remote file sync utility
     'keepassxc'              # Password manager
      
@@ -41,6 +42,7 @@ PKGS=(
 
     'clementine'            # Music player and library organizer
     'kdenlive'              # Movie Render
+    'kid3-qt'               # An MP3, Ogg/Vorbis and FLAC tag editor, qt version
     'vlc'                   # Video player
     
     # INTERNET ------------------------------------------------------------
