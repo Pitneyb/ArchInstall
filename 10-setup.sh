@@ -76,6 +76,20 @@ sudo systemctl enable cronie
 # ---------------------------------------------------------------
 
 echo
+echo "Edit grub config"
+echo
+
+# Amend grub menu timeout
+sudo sed -i 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=10/' /etc/default/grub
+# Make grub remember last selection
+sudo sed -i 's/GRUB-DEFAULT=0/GRUB_DEFAULT=saved/' /etc/default/grub
+sudo sed -i 's/#GRUB_SAVEDEFAULT/GRUB_SAVEDEFAULT/' /etc/default/grub
+# Rebuild grub configuration
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# ---------------------------------------------------------------
+
+echo
 echo "Setup ufw"
 echo 
 # set default  rules
@@ -83,7 +97,6 @@ echo "Setting ufw rules"
 sudo ufw default allow outgoing
 sudo ufw default deny incoming
 
-PathF1nder
 # rules for network printing
 sudo ufw allow to 192.168.1.107
 sudo ufw allow from 192.168.1.107
