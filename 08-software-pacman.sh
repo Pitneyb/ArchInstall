@@ -13,6 +13,7 @@ PKGS=(
 
     # TERMINAL UTILITIES --------------------------------------------------
 
+    'apcupsd'               # Power management and Control of APC's UPS
     'bash-completion'       # Tab completion for Bash
     'bleachbit'             # File deletion utility
     'cronie'                # cron jobs
@@ -25,6 +26,8 @@ PKGS=(
     'neofetch'              # Shows system info when you launch terminal
     'numlockx'              # Turns on numlock in X11
     'openssh'               # SSH connectivity tools
+    'parted'                # CL Disk Utility
+    'smartmontools'         # Control and monitor S.M.A.R.T drives
     'speedtest-cli'         # Internet speed via terminal
     
     # GENERAL UTILITIES ---------------------------------------------------
@@ -33,6 +36,7 @@ PKGS=(
     'gparted'                # Partition magic clone
     'grsync'                 # Remote file sync utility
     'keepassxc'              # Password manager
+    'unrar'                  # RAR uncompression program
      
     # DEVELOPMENT ---------------------------------------------------------
 
@@ -41,8 +45,11 @@ PKGS=(
     # MEDIA ---------------------------------------------------------------
 
     'clementine'            # Music player and library organizer
+    'dvdbackup'             # Tool to rip video DVDs from the command line
+    'handbrake'             # Multithreaded video transcoder
     'kdenlive'              # Movie Render
     'kid3-qt'               # An MP3, Ogg/Vorbis and FLAC tag editor, qt version
+    'libdvdcss'             # Portable abstraction library for DVD decryption
     'vlc'                   # Video player
     
     # INTERNET ------------------------------------------------------------
@@ -61,6 +68,8 @@ PKGS=(
     'hunspell'              # Spellcheck libraries
     'hunspell-en_GB'        # English spellcheck library
     'libreoffice-fresh'     # Libre office with extra features
+    'libreoffice-fresh-en-gb'   # English (GB) language pack for LibreOffice
+    'libreoffice-fresh-th'  # Thai language pack for LibreOffice
     'xpdf'                  # PDF viewer
 
     # VIRTUALIZATION ------------------------------------------------------
