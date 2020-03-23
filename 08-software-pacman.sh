@@ -29,6 +29,7 @@ PKGS=(
     'parted'                # CL Disk Utility
     'smartmontools'         # Control and monitor S.M.A.R.T drives
     'speedtest-cli'         # Internet speed via terminal
+    'xdg-user-dirs'         # Manage user directories like ~/Desktop and ~/Music
     
     # GENERAL UTILITIES ---------------------------------------------------
 
@@ -50,6 +51,7 @@ PKGS=(
     'kdenlive'              # Movie Render
     'kid3-qt'               # An MP3, Ogg/Vorbis and FLAC tag editor, qt version
     'libdvdcss'             # Portable abstraction library for DVD decryption
+    'libdvdnav'             # The library for xine-dvdnav plugin.
     'vlc'                   # Video player
     
     # INTERNET ------------------------------------------------------------
