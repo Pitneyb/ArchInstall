@@ -14,6 +14,8 @@ PKGS=(
         # KDE Applications----------------------
         'dolphin'               # KDE File Manager
         'kate'                  # Advanced Text Editor
+        'kcalc'                 # Scientific Calculator
+        'kde-gtk-config'        # GTK2 and GTK3 Configurator for KDE
         'khelpcenter'           # show KDE Applications' documentation
         'kmymoney'              # Personl Finance manager for KDE
         'konsole'               # terminal  emulator
