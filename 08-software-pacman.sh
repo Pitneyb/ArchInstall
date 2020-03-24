@@ -29,6 +29,7 @@ PKGS=(
     'parted'                # CL Disk Utility
     'smartmontools'         # Control and monitor S.M.A.R.T drives
     'speedtest-cli'         # Internet speed via terminal
+    'terminator'            # Terminal emulator that supports tabs and grids
     'xdg-user-dirs'         # Manage user directories like ~/Desktop and ~/Music
     
     # GENERAL UTILITIES ---------------------------------------------------
@@ -47,6 +48,7 @@ PKGS=(
 
     'clementine'            # Music player and library organizer
     'dvdbackup'             # Tool to rip video DVDs from the command line
+    'ffmpegthumbs'          # FFmpeg-based thumbnail creator for video files
     'handbrake'             # Multithreaded video transcoder
     'kdenlive'              # Movie Render
     'kid3-qt'               # An MP3, Ogg/Vorbis and FLAC tag editor, qt version
