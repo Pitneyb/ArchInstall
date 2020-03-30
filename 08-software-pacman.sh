@@ -34,6 +34,8 @@ PKGS=(
     
     # GENERAL UTILITIES ---------------------------------------------------
 
+    'fscrypt'                # A tool for managing Linux filesystem encryption
+    'grub-customizer'        # A graphical grub2 settings manager
     'kgpg'                   # A GnuPG frontend
     'gparted'                # Partition magic clone
     'grsync'                 # Remote file sync utility
@@ -46,10 +48,12 @@ PKGS=(
     
     # MEDIA ---------------------------------------------------------------
 
+    'cdrdao'                # Records audio/data CD-Rs in disk-at-once (DAO) mode
     'clementine'            # Music player and library organizer
     'dvdbackup'             # Tool to rip video DVDs from the command line
     'ffmpegthumbs'          # FFmpeg-based thumbnail creator for video files
     'handbrake'             # Multithreaded video transcoder
+    'k3b'                   # Feature-rich and easy to handle CD burning application
     'kdenlive'              # Movie Render
     'kid3-qt'               # An MP3, Ogg/Vorbis and FLAC tag editor, qt version
     'libdvdcss'             # Portable abstraction library for DVD decryption
