@@ -5,7 +5,8 @@ echo "INSTALLING AWESOME"
 echo
 
 PKGS=(
-        'lxdm'                  # 
+        'lxdm-gtk3'             # Lightweight X11 Display Manager (GTK+ 3 version)
+        'gtk3'                  # GObject-based multi-platform GUI toolkit
         'awesome'               # Highly configurable framework window manager
         
 )
