@@ -10,6 +10,7 @@ PKGS=(
         'xorg-twm'              # Tab Window Manager for the X Window System
         'xorg-xclock'           # X clock
         'xterm'                 # X Terminal Emulator
+        'xorg-xprop'            # Property displayer for X
 )
 
 for PKG in "${PKGS[@]}"; do
