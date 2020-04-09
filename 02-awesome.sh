@@ -20,7 +20,7 @@ echo "Create local directory for config/Themes"
 if [ ! -d "~/.config/awesome" ]
     then
         echo "Creating Directory"
-        mkdir "~/.config/awesome"
+        mkdir -p "~/.config/awesome"
 fi
 
 echo "Copy awesome config and Themes to users Directory"
