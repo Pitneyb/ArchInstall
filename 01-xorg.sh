@@ -15,6 +15,9 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed | tee -a archinstall.log
 done
 
+echo create user .xinitrc
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+
 echo
 echo "Done!"
 echo
